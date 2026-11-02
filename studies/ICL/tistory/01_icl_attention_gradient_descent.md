@@ -10,7 +10,7 @@
 
 예를 들어 다음과 같은 Prompt를 생각하자.
 
-\`\`\`text
+```text
 English: cat
 Korean: 고양이
 
@@ -19,7 +19,7 @@ Korean: 개
 
 English: apple
 Korean:
-\`\`\`
+```
 
 모델은 앞선 예시를 Context로 이용해 다음 출력을 생성할 수 있다. 여기서 중요한 질문은 **파라미터 업데이트가 없는데도 어떻게 Context에 적응하는가?**이다.
 
